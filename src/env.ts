@@ -18,4 +18,9 @@ export const env = envsafe({
     default: '',
     allowEmpty: true,
   }),
+  AWS_BACKUP_FOLDER: str({
+    desc: 'Specify back up folder. e.g My-App-01-DB-Backups',
+    default: '',
+    allowEmpty: true,
+  })
 })
